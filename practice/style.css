@@ -1,0 +1,63 @@
+body{
+	background-color: #f45342;
+
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+h1,h2,h3{
+	margin:0;
+}
+
+#header{
+	background-color: orange;
+	text-align: center;
+}
+
+#continer
+{
+	background-color: #034407;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#content{
+	padding:10px;
+}
+
+#nav{
+	width: 180px;
+	float: left;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: :0;
+}
+
+#nav.selected{
+	font-weight:bold;
+}
+
+#main{
+	width:600px;
+	float: right;
+}
+
+#footer{
+	clear:both;
+	padding: 10px;
+	background-color: #999999;
+	text-align: right;	
+}
+
+.datascience{
+	border:2px solid red;
+	padding: 20px
+
+}

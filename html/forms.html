@@ -1,0 +1,53 @@
+<!-- The HTML <form> element defines a form that is used to collect user input:
+ -->
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Forms</title>
+ </head>
+ <body>
+ 	<h2>Html Forms</h2>
+ 	<form>
+ 		<fieldset>   <!-- is use for a box -->
+ 		<legend>information:</legend>
+
+ 		FirstName: <input type=" text" name="firstname" />
+ 		<br>
+ 		MiddleName:<br>
+ 		<input type="text" name="middleName" />
+ 		<br>
+ 			LastName: <input type="text" name="lastname" value= "surname">
+ 		</br>	
+
+<!-- if you have multiple lines in a input  -->
+ 		Description : <textarea rows = "4" cols = "100" name ="Description"> Enter Description</textarea> 
+ 		<br></br>
+
+<!-- Radio Buttons -->
+  <input type="radio" name="gender" value="male" checked> Male<br>
+
+<!-- Checkbox -->
+ 
+          <input type = "checkbox" name = "name" value = "on"> name
+		</fieldset>
+	<br>
+<!-- fileupload -->
+     <input type = "file" name = "fileupload" accept = "image/*" />
+     <br></br>
+
+    <select name = "dropdown">
+        <option value = "telugu" selected>tel</option>
+        <option value = "english" >eng</option>
+    </select>
+
+<!-- Submit button -->
+ 	<input type="submit" value="Submit">
+ 	</form>
+
+
+
+ 	<p> your data as submitted!</p>
+
+ </body>
+ </html>

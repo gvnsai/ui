@@ -1,0 +1,58 @@
+#continer{
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	border: 1px solid;
+
+
+}
+#header h1,h6{
+	padding-top: 5px;
+}
+
+#content{
+	margin-right: 150px;
+}
+
+.account{
+	margin-right: 200px;
+}
+
+p.learn{
+	margin-right: 280px;
+	color:blue;
+}
+p.femail{
+	margin-right: 130px;
+	color: blue;
+}
+
+.logo{
+	margin-top: 40px;
+	width: 30%;
+	height: 30%;
+}
+.email{
+	margin-right: 20%;
+	border-style: none;
+
+}
+.next{
+	background-color: #1c6bea;
+	color: white;
+}
+
+.email input[type="text"]{
+	border: 0px;
+    border-bottom: 1px solid;
+    margin: 0px 20px;
+}
+
+.email input[type="text"]::active{
+	border: 0px;
+    border-bottom: 1px solid;
+    margin: 0px 20px;
+}

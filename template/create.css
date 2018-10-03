@@ -1,0 +1,221 @@
+#continer{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 600px;
+	border: 1px solid;
+
+}
+.box1{
+
+}
+
+.box1 input[type='text']{
+	padding: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 20px 0px;
+}
+.box1 input[type='password']{
+	padding: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 20px 0px;
+
+}
+
+.box1-text{
+	position: relative;
+	bottom: 25px;
+}
+#header {
+	padding-top:20px;
+	text-align:center;
+}
+
+.content{
+	padding: 20px;
+    
+}
+
+.account{
+	float: right;
+    margin-top: -130px;
+}
+
+#footer{
+	margin-right: 575px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.fname input[type="text"]{
+	border: none;
+    border-bottom: 1px solid;
+    
+}
+
+
+.email input[type="email"]{
+    margin-right: 550px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+}
+
+.com{
+	margin-right:300px;
+	margin-top: -20px;
+}
+
+.you{
+	margin-right: 480px;
+}
+
+.pwd input[type="password"]{
+	margin-right: 550px;
+	border:none;
+	border-bottom: 1px solid;
+	padding-top:25px;
+}
+
+.cpwd input[type="password"]{
+	margin-right:100px;
+	margin-top:-20px;
+	border: none;
+	border-bottom: 1px solid;s 
+}
+
+.use{
+	margin-right: 300px;
+}
+
+
+.signininstead{
+    border: none;
+    padding: 8px;
+    background-color: inherit;
+    padding-top: 25px;
+}
+
+.next{
+	background-color: #1c6bea;
+	color: white;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#continer{
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 600px;
+	border: 1px solid;
+
+
+}
+#header h1{
+	margin-right: 360px;
+}
+#content{
+	margin-right: 360px;
+}
+
+#footer{
+	margin-right: 575px;
+}
+.gmail{
+	margin-right: 600px;
+	padding-bottom: 60px;
+}
+.logo{
+	margin-right: 615px;
+	margin-top: 30px;
+	margin-bottom: -25px;
+}
+.account{
+	margin-left: 500px;
+}
+.user{
+	margin-top: 20px;
+	margin-right: 175px;
+}
+	
+}
+.you{
+	margin-right: 100px;
+}
+
+.com{
+	margin-left: 100px;
+	margin-top: -20px;
+}
+
+.fname input[type="text"]{
+	border: 0px;
+    border-bottom: 1px solid;
+    margin: 0px 20px;
+}
+
+./*email input[type="text"]::active{
+	border: 0px;
+    border-bottom: 1px solid;
+    margin: 0px 20px;
+}*/
+
+/*.lname input[type="text"]{
+	border: none;
+    border-bottom: 1px solid;
+    margin:0px 20px;
+}*/

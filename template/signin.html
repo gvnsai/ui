@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signin</title>
+    <link rel="stylesheet" type="text/css" href="signin.css">
+
+</head>
+<body>	
+	<div id ="continer">
+		<div id = "header">
+			<img class="logo" src="logo.png" alt="logo" height="75px" width="100px">
+			<h1>Sign in</h1>
+			<h6>to continue to Gmail</h6>
+		</div>
+		<div id = "content">
+			<form class="email">
+				<input type="text" id="email" name= "Email or phone" placeholder="Enter your email" >
+			</form>
+		
+			<p class= "femail">Forgot email?</font></p>
+
+		</div>
+		<div id="footer">
+			<p class="guest" style="color:#575859;">Not your computer? Use Guest mode to sign in privately.</p>
+			<p class="learn" >Learn more</font></p>
+
+			<button class="account" type="button">Cretae Account</button>
+			<button class="next" type="button">Next</button>
+		</div>
+
+
+
+	</div>
+
+
+
+	<script>
+		let a=document.getElementById("email").value;
+          console.log(a);
+	</script>
+</body>
+</html>
+
+<!-- 
+
+<script >
+  let input=document.forms["login"]["mail id"];
+   function val(){
+
+                            if(input.value=="")
+                            {
+                             input.style.borderBottom="2px solid red";
+                             input.focus();
+                             document.getElementById("alr").style.visibility="visible";
+                             return false;
+                            }
+
+                           if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value))
+                           {
+                             return (true);
+                           }
+
+                          document.getElementById("alr").style.visibility="visible";
+                           return false;
+
+                 }
+function remerr(){
+      input.style.borderBottom="2px solid blue";
+      document.getElementById("alr").style.visibility="hidden";
+       return false;
+   }
+</script> -->
