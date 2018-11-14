@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    
+  </head>
+  <body>
+     
+    <div class="box"> 
+      
+        <div class="box1">
+          <img class="img1" src="google.png"  >
+          <form action="#" method="get" name="mail" onsubmit="return val()">
+             <h2 style="font-weight:normal">Create Your Google Account</h2>
+             <p>to continue to Gmail</p>
+               <div class="intext" style="width:50%;float:left;">
+                  <div style="width:50%;float:left;" >
+                    <input type="text" id="fname" name="fname" autocomplete="off" onkeyup="fmat()">
+		    <label for="fname" >First Name</label>
+                     <span id="err1" class="err">Enter your valid first name</span>
+                  </div>
+                    
+                  <div style="width:50%;float:left">
+                    <input type="text" id="lname" name="lname" autocomplete="off" onkeyup="lmat()"><label for="lname" >Last Name</label>
+                    <span id="err2" class="err">Enter your Last name</span>
+                  </div>
+                  
+                  <div style="width:100%">
+                     <input type="email" id="email" style="width:95%;" name="email" autocomplete="off" onkeyup="emat()" >
+                     <label  for="email">Email</label>
+                     
+                  </div>    
+                      <span id="err3" class="err">Enter valid User name</span>
+                    <P class="p1" style="font-size:12px;">you can use letters,numbers & periods</p>
+                  
+
+                 <div style="width:100%">
+                  <div style="width:45%;float:left" >
+                    <input type="password" id="pass" name="pwd" onkeyup="umat()" ><label  for="pass">Password</label>
+                    <span id="err4" class="err">Enter password</span>
+                  </div>
+                  
+                  <div style="width:45%;float:left;">
+                    <input type="password" id="cpass" name="cpwd" onkeyup="cpmat()">
+                    <label  for="cpass">ConfirmPassword</label>
+                    <span id="err5" class="err">Enter Confirm Password</span>
+                  </div>
+                  
+                  </div>
+                    <!--<img style="float:right;position:relative;top:15px;right:20px" src="icon.png" width="25px" height="25px">-->
+                  
+        
+                  <div style="width:100%;float:right;">
+                  <p style="font-size:12px">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                  </div>
+                   
+                    <div style="margin-top:150px;">
+               <a class="link" href="#">sign in instead</a>
+               <input type="submit" value="Next">
+               </div>
+                 
+           </div>
+               <div style="text-align:center">
+                  <img class="img2" src="account.svg"  >
+                  <p style="font-weight:20px">One account. All of Google <br> working for you.</p>
+               </div>
+          </form>
+        </div>
+        
+   </div>
+
+   <div style="margin:5px 0px 0px 200px;">
+     <select >
+         <option value="Telugu">Telugu</option>
+	 <option value="English (Uk)">English (UK)</option>
+	 <option value="English (Us)">English (US)</option>
+         <option value="Hindi">Hindi</option>
+         <option value="Tamil">Tamil</option>
+         <option value="Kanada">Kanada</option>
+         <option value="Malayalam">Malayalam</option>
+
+      </select>
+    <span class="last">  
+      <a href="#">Help</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </span>
+   </div>
+
+
+
+    <script src="validation.js"></script>
+  
+   
+   </body>
+
+
+
+
+
+
+</html>

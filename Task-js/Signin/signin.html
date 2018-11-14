@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Signin</title>
+   <link type="text/css" rel="stylesheet" href="signin.css" >
+
+</head>
+
+<body>
+   
+   <div class="box">
+        <div class="head">
+            <img class="google" src="google.png">
+            <p class="text" style="font-size:26px">Sign In</p>
+            <p class="text">to continue to Gmail</p>
+        </div>
+        <form name="login" action="#" method="get" onsubmit="return val()">
+        <div>
+            <input type="text" id="mailid" name="mail id" autocomplete="off" onkeyup="remerr()"  ><label for="mailid">Email or phone </lable>
+            
+        </div>
+        <p id="alr" class="alr">please enter the valid email or phone number</p>
+        <div>
+         <a class="link" href="#">forgot email?</a>
+        </div>
+        
+        <div class="com">
+         <span ><p>Not your computer? Use a Private Window to sign in.</p>
+         <a class="link" href="#">Learn More</a></span>
+        </div>
+
+         <div class="btn">
+            <a class="link" href="#">Create Account</a>
+            <input type="submit" value="Next">
+          </div>
+       </form>
+   </div>
+ 
+   
+
+   
+   
+
+
+
+
+
+</body>
+
+<script >
+   let input=document.forms["login"]["mail id"];
+
+
+   
+
+    function val(){
+         
+                             if(input.value=="")
+                             {
+                              input.style.borderBottom="2px solid red";
+                              input.focus();
+                              document.getElementById("alr").style.visibility="visible";
+                              return false;
+                             }
+
+                            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value))
+                            { 
+                              return (true);
+                            }
+           
+                           document.getElementById("alr").style.visibility="visible";
+                            return false;
+              
+                  }
+   
+ function remerr(){
+       input.style.borderBottom="2px solid blue";
+       document.getElementById("alr").style.visibility="hidden";
+        return false;
+    }        
+
+  
+
+
+
+</script>
+
+
+
+</html>
